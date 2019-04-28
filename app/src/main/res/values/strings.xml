@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">Cryptographer</string>
-    <string name="one">one</string>
-    <string name="two">two</string>
-    <string name="three">three</string>
-    <string name="four">four</string>
+    <string name="one">Anagram</string>
+    <string name="two">Pig Latin</string>
+    <string name="three">Reverse</string>
+    <string name="four">Shuffle</string>
     <string name="five">five</string>
     <string name="six">six</string>
     <string name="send">send</string>

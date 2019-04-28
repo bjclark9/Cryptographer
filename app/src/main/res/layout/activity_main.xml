@@ -8,7 +8,7 @@
 
     <Button
         android:id="@+id/one"
-        android:layout_width="88dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
@@ -136,8 +136,8 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="381dp"
-        android:layout_height="515dp"
+        android:layout_width="378dp"
+        android:layout_height="497dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
