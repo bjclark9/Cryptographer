@@ -135,6 +135,7 @@ public class MainActivity extends AppCompatActivity {
                 findViewById(R.id.six).setVisibility(View.INVISIBLE);
                 findViewById(R.id.send).setVisibility(View.VISIBLE);
                 findViewById(R.id.six).setVisibility(View.VISIBLE);
+                findViewById(R.id.back).setVisibility(View.VISIBLE);
                 crypto(6, original);
             }
         });

@@ -4,8 +4,8 @@
     <string name="two">Pig Latin</string>
     <string name="three">Reverse</string>
     <string name="four">Shuffle</string>
-    <string name="five">five</string>
-    <string name="six">six</string>
+    <string name="five">Formulaic</string>
+    <string name="six">Randomness</string>
     <string name="send">send</string>
     <string name="back">back</string>
 </resources>

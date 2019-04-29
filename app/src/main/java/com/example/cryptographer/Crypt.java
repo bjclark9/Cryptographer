@@ -119,10 +119,35 @@ public class Crypt {
     }
 
     public static String methodFive(final String input) {
-        return null;
+        String cypher = "";
+        for (int i = 0; i < input.length(); i++) {
+            int asc = input.charAt(i);
+            asc = ((asc/2) + 6);
+            char character = (char) asc;
+            cypher += character;
+        }
+        for (int i = 0; i < cypher.length(); i++) {
+            int ascii = cypher.charAt(i);
+            if (ascii > 30) {
+                ascii = 127 - ascii;
+            }
+            char character = (char) ascii;
+            cypher = cypher.replace(cypher.charAt(i), character);
+        }
+        return cypher;
     }
 
     public static String methodSix(final String input) {
-        return null;
+        String cypher = "";
+        for (int i = 0; i < input.length(); i++) {
+            Random rand = new Random();
+            int randInt = rand.nextInt(128);
+            if (randInt == 32) {
+                randInt = 33;
+            }
+            char character = (char) randInt;
+            cypher += character;
+        }
+        return cypher;
     }
 }
