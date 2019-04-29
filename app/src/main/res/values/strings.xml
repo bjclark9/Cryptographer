@@ -5,7 +5,7 @@
     <string name="three">Reverse</string>
     <string name="four">Shuffle</string>
     <string name="five">Formulaic</string>
-    <string name="six">Randomness</string>
+    <string name="six">Random</string>
     <string name="send">send</string>
     <string name="back">back</string>
 </resources>
